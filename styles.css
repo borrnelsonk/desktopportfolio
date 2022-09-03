@@ -651,5 +651,37 @@
         padding: 30px;
         flex-wrap: wrap;
       }
+      .hbutton {
+        display: none;
+      }
+    
+      .logo {
+        margin: 0;
+        padding: 0;
+      }
+    
+      .logo a {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #ffff;
+        margin: 0;
+        text-decoration: none;
+      }
+    
+      nav {
+        margin: 0;
+        padding: 0;
+      }
+      .desktopnav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+      }
 }
 
