@@ -712,5 +712,17 @@
         text-decoration: none;
         padding-left: 20px;
       }
+      .headline {
+        position: relative;
+        overflow: hidden;
+        background: black;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-bottom: 5%;
+      }
 }
 
