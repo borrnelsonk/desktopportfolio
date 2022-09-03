@@ -1389,4 +1389,84 @@
     line-height: 20px;
     color: #fff;
   }
+
+  .row2projects {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+
+  .card4 {
+    background: url("/assets/printing2.png");
+    width: 369px;
+    height: 435px;
+    border: 2px solid #091e42;
+    margin-right: 2%;
+    padding-top: 162px;
+    padding-left: 10px;
+  }
+
+  .card4h {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  .card4 li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .card5 {
+    background: url("/assets/Healthcare.png");
+    width: 369px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 147px;
+  }
+
+  .card5 li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .card6 {
+    background: url("/assets/websiteportfolio.png");
+    width: 369px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 192px;
+    margin-left: 20px;
+  }
+
+  .card6 li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
 }
