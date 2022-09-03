@@ -551,23 +551,6 @@
     padding: 5px;
   }
 
-  #listdetails {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    list-style-type: none;
-  }
-
-  #listdetails li {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #979493;
-    padding-right: 5px;
-  }
-
   #namefield {
     width: 327px;
     height: 48px;
@@ -974,6 +957,11 @@
     background: #ff6b00;
   }
 
+  .buttonw:hover {
+    background: #fff5e1;
+    transition: 0.7s;
+  }
+
   .seep {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -986,6 +974,8 @@
     letter-spacing: 0.03em;
     color: #fff;
     text-decoration: none;
+    justify-content: center;
+    padding-left: 5px;
   }
 
   .boutplus {
@@ -1041,6 +1031,11 @@
     height: 48px;
     background: #ff6b00;
     list-style-type: none;
+  }
+
+  .butabout:hover {
+    background: #fff5e1;
+    transition: 0.7s;
   }
 
   .butabout li a {
@@ -1190,6 +1185,46 @@
     flex-direction: column;
   }
 
+  .worka li:hover {
+    background: #fff5e1;
+    transition: 0.7s;
+  }
+
+  .card5 li:hover {
+    background: #fff5e1;
+    transition: 0.7s;
+  }
+
+  .card4 li:hover {
+    background: #fff5e1;
+    transition: 0.7s;
+  }
+
+  .card3 li:hover {
+    background: #fff5e1;
+    transition: 0.7s;
+  }
+
+  .card2 li:hover {
+    background: #fff5e1;
+    transition: 0.7s;
+  }
+
+  .card6 li:hover {
+    background: #fff5e1;
+    transition: 0.7s;
+  }
+
+  .card6 li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
   #listdetails li {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1227,6 +1262,11 @@
     height: 48px;
   }
 
+  .fbutton:hover {
+    background: #fff5e1;
+    transition: 0.7s;
+  }
+
   .btext {
     text-decoration: none;
     color: #fff;
@@ -1260,6 +1300,11 @@
     margin-top: 377px;
     height: 58px;
     background: #f55800;
+  }
+
+  .card1button:hover {
+    background: #fff5e1;
+    transition: 0.7s;
   }
 
   .card1button ins {
@@ -1471,15 +1516,5 @@
     padding-left: 10px;
     padding-top: 192px;
     margin-left: 20px;
-  }
-
-  .card6 li a {
-    text-decoration: none;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #fff;
   }
 }
