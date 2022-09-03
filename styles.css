@@ -1045,4 +1045,74 @@
     margin-left: 10%;
     margin-right: 15%;
   }
+  .language {
+    list-style-type: none;
+  }
+
+  .lang a h4::before {
+    content: url("/assets/listrec.svg");
+    padding-right: 5px;
+  }
+
+  .language li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #fff;
+  }
+
+  h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0;
+  }
+
+  .frameworks {
+    list-style-type: none;
+  }
+
+  .frameworks li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #fff;
+  }
+
+  .framework a h4::before {
+    content: url("/assets/listframewoks.svg");
+    padding-right: 5px;
+  }
+
+  .skills a h4::before {
+    content: url("/assets/dotskills.svg");
+    padding-right: 5px;
+  }
+
+  .skills {
+    list-style-type: none;
+  }
+
+  .skills li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #fff;
+  }
+
 }
