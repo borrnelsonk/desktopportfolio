@@ -1299,7 +1299,6 @@
     transform: scale(1.5);
   }
 
-
   .card1button {
     width: 100%;
     margin-top: 377px;
@@ -1446,9 +1445,11 @@
     padding-top: 192px;
     margin-left: 20px;
   }
+
   .card3:hover {
     transform: scale(1.5);
   }
+
   .card3 li a {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
@@ -1475,9 +1476,11 @@
     padding-top: 162px;
     padding-left: 10px;
   }
+
   .card4:hover {
     transform: scale(1.5);
   }
+
   .card4h {
     width: 337px;
     height: 81px;
@@ -1509,6 +1512,7 @@
     padding-left: 10px;
     padding-top: 147px;
   }
+
   .card5:hover {
     transform: scale(1.5);
   }
@@ -1533,6 +1537,7 @@
     padding-top: 192px;
     margin-left: 20px;
   }
+
   .card6:hover {
     transform: scale(1.5);
   }
