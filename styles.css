@@ -1119,5 +1119,30 @@
     flex-direction: column;
     width: 100%;
   }
+  .footersocials {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+  }
+
+  .footersocials li {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(18%) contrast(10%);
+    padding: 5px;
+  }
+
+  .footerwrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-items: center;
+    padding-left: 10%;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #dfe1e6;
+  }
+
 
 }
