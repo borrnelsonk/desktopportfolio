@@ -1143,6 +1143,72 @@
     padding-bottom: 100px;
     border-bottom: 1px solid #dfe1e6;
   }
+  .context {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: start;
+    color: #172b4d;
+    width: 25%;
+  }
 
+  #contactform {
+    padding-left: 10%;
+    width: 60%;
+    display: flex;
+  }
+
+  #listdetails {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #listdetails li {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #979493;
+  }
+
+  #name,
+  #mail {
+    box-sizing: border-box;
+    width: 850px;
+    height: 48px;
+    border-bottom: 1px solid #dfe1e6;
+    padding-bottom: 10px;
+  }
+
+  textarea {
+    width: 850px;
+    height: 114px;
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    background: #fbf8f7;
+  }
+
+  .fbutton {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    background: #ff6b00;
+    width: 131px;
+    height: 48px;
+  }
+
+  .btext {
+    text-decoration: none;
+    color: #fff;
+  }
 
 }
