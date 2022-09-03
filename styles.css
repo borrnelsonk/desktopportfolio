@@ -394,7 +394,16 @@
     height: 48px;
     background: #ff6b00;
   }
-
+  .buttonw:hover {
+    background-color: #FFF5E1;
+    transition: 0.7s;
+}
+.buttonw:focus {
+     background-color:#F55800;
+}
+.buttonw:active {
+  background: #F55800;
+}
   .seep {
     font-family: 'Inter', sans-serif;
     font-style: normal;
