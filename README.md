@@ -68,4 +68,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/borrnelsonk/mobilefirstportfolio/blob/main/license) licensed.
+This project is [MIT](https://github.com/borrnelsonk/desktopportfolio/blob/main/LICENSE) licensed.
