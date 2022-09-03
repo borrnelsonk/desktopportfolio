@@ -1036,4 +1036,13 @@
     margin-left: 10%;
     margin-right: 10%;
   }
+  
+  .qualifications {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 15%;
+  }
 }
