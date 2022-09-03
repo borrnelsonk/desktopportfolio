@@ -1114,5 +1114,10 @@
     line-height: 43px;
     color: #fff;
   }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
 }
