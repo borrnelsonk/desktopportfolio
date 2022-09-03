@@ -683,5 +683,34 @@
         justify-content: space-between;
         list-style-type: none;
       }
+      .butabout a {
+        width: 137px;
+        height: 24px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #fff;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        list-style-type: none;
+      }
+    
+      .desktopnav li a {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #ffff;
+        margin: 0;
+        text-decoration: none;
+        padding-left: 20px;
+      }
 }
 
