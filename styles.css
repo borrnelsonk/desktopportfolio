@@ -395,19 +395,6 @@
     background: #ff6b00;
   }
 
-  .buttonw:hover {
-    background-color: #fff5e1;
-    transition: 0.7s;
-  }
-
-  .buttonw:focus {
-    background-color: #f55800;
-  }
-
-  .buttonw:active {
-    background: #f55800;
-  }
-
   .seep {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -507,6 +494,10 @@
     display: none;
   }
 
+  .projectcards {
+    display: none;
+  }
+
   .qualifications {
     display: none;
   }
@@ -549,6 +540,23 @@
   .footersocials li {
     filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(18%) contrast(10%);
     padding: 5px;
+  }
+
+  #listdetails {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+  }
+
+  #listdetails li {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #979493;
+    padding-right: 5px;
   }
 
   #namefield {
@@ -627,10 +635,6 @@
     border: 3px solid black;
     width: 30%;
     border-radius: 5px;
-  }
-
-  .projectcards {
-    display: none;
   }
 }
 
